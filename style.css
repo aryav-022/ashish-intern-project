@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+.top-container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.content-white {
+    font-size: 40px;
+    font-family: "Sen", sans-serif;
+    color: #fff;
+  }
+
+  .circ-white {
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    border-radius: 100%;
+    margin-bottom: 4vmin;
+    animation-name: bounce-7;
+    animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+    animation-duration: 2s;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 33.3333333%;
+    padding: 1em;
+  }
+  .icon{
+    color: rgb(255, 77, 106);
+    cursor: pointer;
+    font-size:23px;
+    padding: 10px;
+}
+.icon:hover{
+  color: #dfb791;
+}
+.socialmedia{
+  display: flex;
+  gap: 10px;
+  padding: 1em;
+}
+.icons{
+  background-color: #ff4d6a1a;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-decoration: none;
+}
+
+.content-box{
+  margin: auto;
+  max-width: 1440px;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-heading{
+  font-size:100px;
+  font-weight: 700;
+  line-height: 110.5% ;
+  max-width: 60%;
+  text-align: center;
+  font-family: Helvetica;
+}
+.content-para{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height:29px;
+  color: #acacac;
+  max-width: 53%;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+
+
+
+.lower-container{
+  display: flex;
+  justify-content:center;
+  margin-top: -240px;
+}
+
+
+
+
+.image{
+  width:100%;
+  max-height: 340px;
+  max-width: 705px;
+  color: transparent;
+  object-fit: contain;
+  transform: translate(0px,0px);
+}
+
+@media (max-width: 68.75em) {
+  .content-heading{
+    max-width:  80%;
+  }
+  .content-para{
+    max-width: 80%;
+  }
+}
+@media (max-width:900px) {
+  .content-heading{
+    font-size: 55px;
+  }
+}
